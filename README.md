@@ -23,18 +23,18 @@ PhenoScreen is a cutting-edge molecular representation model that integrates cel
 
 1. **Molecular Feature Extraction**: Uses a four-layer Weisfeiler-Lehman Network (WLN) pre-trained with GeminiMol weights to encode molecular structures into high-dimensional embeddings.
 2. **Cell Image Feature Extraction**: Applies a ViT model based on QFormer to encode cell images, incorporating a novel Quadrangle Attention mechanism to handle varying object sizes, shapes, and orientations.
-3. **Joint Training**: Simultaneously trains molecular and image encoders using contrastive learning to align features and enhance model performance.
+3. **Dual-space Joint Training**: Simultaneously trains molecular and image encoders using contrastive learning to align features and enhance model performance.
 4. **Feature Fusion**: Integrates molecular and cell image features to create a unified representation that captures both structural and activity-related information.
 
 ## Performance 📈 
 
-- **DUD-E and LIT-PCBA Benchmarks**: Achieves superior performance in virtual screening tasks compared to traditional models.
-- **NCI Cell Line Bioassays**: Demonstrates excellent capability in multi-target activity tests, showcasing the power of integrating cell phenotype data.
-- **ADMET Property Prediction**: Competitive performance in predicting absorption, distribution, metabolism, excretion, and toxicity properties, comparable to large-scale pre-trained models.
+- **Phenotype-based Virtual Screening**: Demonstrates excellent capability in multi-target activity tests (NCI cell line bioassays benchmark), showcasing the power of integrating cell phenotype data.
+- **Target-based Virtual Screening**: Achieves superior performance in DUD-E and LIT-PCBA Benchmarks compared to traditional models.
+- **Property Prediction**: Competitive performance in predicting absorption, distribution, metabolism, excretion, and toxicity properties (ADMET), comparable to large-scale pre-trained models.
 
 ## News 🔔 
 
-* 2024-10, PhenoScreen1.0 has been released.    
+* 2024-10, PhenoScreen has been released.
 
 
 ## Getting Started 🚀
