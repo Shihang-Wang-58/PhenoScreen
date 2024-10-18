@@ -3,7 +3,7 @@
 <h1 align="center">  PhenoScreen  </h1>
 <h3 align="center"> Phenotypic Screening Method Established by a Dual-space Contrastive Learning Framework </h3>
 <p align="center">
-  📃 <a href="https://onlinelibrary.wiley.com/doi/10.1002/advs.202403998" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/AlphaMWang/GeminiMol" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
+  📃 <a href="https://onlinelibrary.wiley.com/doi/10.1002/advs.202403998" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ PhenoScreen is a cutting-edge molecular representation model that integrates cel
 
 ## News 🔔 
 
-* 2024-09, PhenoScreen1.0 has been uploaded.    
+* 2024-10, PhenoScreen1.0 has been released.    
 
 
 ## Getting Started 🚀
@@ -99,7 +99,7 @@ To use PhenoScreen, follow these steps:
    If you find this process difficult for you, you can also upload a profile file directly on our online website for similarity screening.
 
 ## Data 📂
-All training and downstream tasks datasets could be easily downloaded at https://zenodo.org/records/13943032, unzip it to the `data` folder. The cpg0012 dataset originally consists of 919,265 cellular images collected from 30,616 molecular intervention and you can access it at http://gigadb.org/dataset/100351.
+All training and downstream tasks datasets could be easily downloaded at https://zenodo.org/records/13943032, or https://huggingface.co/Sean-Wong/PhenoScreen, unzip it to the `data` folder. The cpg0012 dataset originally consists of 919,265 cellular images collected from 30,616 molecular intervention and you can access it at http://gigadb.org/dataset/100351.
 
 
 ## Online Server 🌐 
