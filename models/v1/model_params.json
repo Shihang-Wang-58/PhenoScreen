@@ -1,0 +1,11 @@
+{
+    "batch_size": 384,
+    "image_encoder_type": "Qformer_base",
+    "metric_list": [
+        "Cosine",
+        "Pearson",
+        "KLDiv",
+        "Euclidean"
+    ],
+    "ckpt_path": "../phenoscreen/QFormer/ckpt_epoch_32.pth"
+}

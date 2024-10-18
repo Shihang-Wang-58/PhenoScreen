@@ -1,0 +1,4 @@
+﻿SMILES,Label
+CC(NCCC(c1ccccc1)c1ccccc1)c1ccccc1,1.0
+COc1ccc(CCCOC(Cn2ccnc2)c2ccc(OC)cc2)cc1,0.5
+Clc1ccc(C(Cn2ccnc2)OCc2csc3c(Cl)cccc23)c(Cl)c1,-0.3

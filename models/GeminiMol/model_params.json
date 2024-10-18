@@ -1,0 +1,29 @@
+{
+    "feature_list": [
+        "smiles1",
+        "smiles2"
+    ],
+    "batch_size": 512,
+    "encoder_activation": "LeakyReLU",
+    "decoder_activation": "LeakyReLU",
+    "gnn_type": "WLN",
+    "readout_type": "MeanMLP",
+    "num_features": 2048,
+    "num_layers": 4,
+    "integrate_layer_type": "None",
+    "integrate_layer_num": 0,
+    "encoding_features": 2048,
+    "decoder_expand_ratio": 5,
+    "decoder_dropout_rate": 0.0,
+    "label_dict": {
+        "ShapeScore": 0.2,
+        "ShapeAggregation": 0.2,
+        "ShapeOverlap": 0.05,
+        "ShapeDistance": 0.05,
+        "CrossSim": 0.15,
+        "CrossAggregation": 0.15,
+        "CrossDist": 0.05,
+        "CrossOverlap": 0.05,
+        "MCS": 0.1
+    }
+}

@@ -1,0 +1,42 @@
+TAG: "default_lambda_1_win_8_dim_256"
+MODEL:
+  TYPE: qformer_encoder
+  NAME: Cellformer_tiny_baseline
+  DROP_PATH_RATE: 0.2
+  LABEL_SMOOTHING: 0.0
+  RESUME: "./phenoscreen/Qformer/ckpt_epoch_26.pth"
+  SWIN:
+    PATCH_SIZE: 16
+    EMBED_DIM: 256
+    DEPTHS: [ 2, 2, 6, 2 ]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 8
+    IN_CHANS: 5
+  QuadrangleAttention:
+    rpe: 'v1'
+DATA:
+  DATASET: "cpg0012_base"
+  IMG_SIZE: 512
+  NUM_WORKERS: 6
+
+TRAIN:
+  coords_lambda: 1.0
+  EPOCHS: 300
+  WARMUP_EPOCHS: 20
+  WEIGHT_DECAY: 0.05
+  BASE_LR: 5e-4
+  WARMUP_LR: 5e-7
+  MIN_LR: 5e-6
+  AUTO_RESUME: True
+  
+AUG:
+  MIXUP: 0.0
+
+EMA:
+  ENABLE_EMA: False
+
+AMP_OPT_LEVEL: "O0"
+OUTPUT : "./phenoscreen/Qformer/output"
+SAVE_FREQ: 1
+PRINT_FREQ: 512
+EVAL_MODE: False

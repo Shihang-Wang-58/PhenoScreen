@@ -1,0 +1,16 @@
+{
+    "DUDE": "../data/Benchmark_DUD-E/",
+    "LIT-PCBA": "../data/Benchmark_LIT-PCBA/",
+    "NCI-50": "../data/Benchmark_NCI/",
+    "ADMET-C": "../data/Benchmark_QSAR/",
+    "ADMET-R": "../data/Benchmark_QSAR/",
+    "LIT-QSAR": "../data/Benchmark_QSAR/",
+    "ST-QSAR": "../data/Benchmark_QSAR/",
+    "PW-QSAR": "../data/Benchmark_QSAR/",
+    "CELLS-QSAR": "../data/Benchmark_QSAR/",
+    "PropDecoder-ADMET": "../data/Benchmark_QSAR/",
+    "PropDecoder-QSAR": "../data/Benchmark_QSAR/",
+    "FineTuning-ADMET": "../data/Benchmark_QSAR/",
+    "FineTuning-QSAR": "../data/Benchmark_QSAR/",
+    "FineTuning-QSAR_PCBA": "../data/Benchmark_QSAR/"
+}
