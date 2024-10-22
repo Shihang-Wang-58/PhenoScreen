@@ -1,9 +1,8 @@
 # PhenoScreen: A Phenotypic Screening Method Established by a Dual-space Contrastive Learning Framework for Linking Chemical Perturbations to Cellular Morphological Profiles
 
-<h1 align="center">  PhenoScreen  </h1>
 <h3 align="center"> Phenotypic Screening Method Established by a Dual-space Contrastive Learning Framework </h3>
 <p align="center">
-  📃 <a href="https://onlinelibrary.wiley.com/doi/10.1002/advs.202403998" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
+   🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
 
 <p align="center">
