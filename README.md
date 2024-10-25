@@ -73,7 +73,7 @@ To use PhenoScreen, follow these steps:
     export geminimol_path="./models/GeminiMol"
     python ./phenoscreen/benchmark.py "./models/v1" "./data/benchmark.json" "${task_name}"  "${geminimol_path}"
    ```
-   For drug similarity search, you need to define a pharmacological profile file. For example, you can create a CSV file called "profile. csv" in the following format: where the SMILES column is the reference molecule you provided, and the Label column is the weight you assigned.
+   For drug similarity search, you need to define a pharmacological profile file. For example, you can create a CSV file called "profile.csv" in the following format: where the SMILES column is the reference molecule you provided, and the Label column is the weight you assigned.
 
    ``` 
     SMILES,Label
