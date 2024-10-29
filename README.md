@@ -1,7 +1,7 @@
 <h1 align="center">  PhenoScreen  </h1>
 <h3 align="center">  A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology </h3>
 <p align="center">
-   🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
+   📃 <a href="https://www.biorxiv.org/content/10.1101/2024.10.23.619752v1" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
 
 <p align="center">
