@@ -97,7 +97,7 @@ To use PhenoScreen, follow these steps:
    If you find this process difficult for you, you can also upload a profile file directly on our online website for similarity screening.
 
 ## Data 📂
-All training and downstream tasks datasets could be easily downloaded at https://zenodo.org/records/13943032, or https://huggingface.co/Sean-Wong/PhenoScreen, unzip it to the `data` folder. The cpg0012 dataset originally consists of 919,265 cellular images collected from 30,616 molecular intervention and you can access it at http://gigadb.org/dataset/100351.
+All training and downstream tasks datasets could be easily downloaded at https://zenodo.org/records/13943032, or https://huggingface.co/Sean-Wong/PhenoScreen, unzip it to the corresponding folder. The cpg0012 dataset originally consists of 919,265 cellular images collected from 30,616 molecular intervention and you can access it at http://gigadb.org/dataset/100351.
 
 
 ## Online Server 🌐 
