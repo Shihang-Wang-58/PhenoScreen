@@ -76,12 +76,12 @@ To use PhenoScreen, follow these steps:
    For drug similarity search, you need to define a pharmacological profile file. For example, you can create a CSV file called "profile.csv" in the following format: where the SMILES column is the reference molecule you provided, and the Label column is the weight you assigned.
 
    ``` 
-    SMILES,Label
-    C=CC(=O)N[C@@H]1CN(c2nc(Nc3cn(C)nc3OC)c3ncn(C)c3n2)C[C@H]1F,1.0
-    C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc(N4CCN(C(C)=O)CC4)cc3OC)ncc2C(F)(F)F)c1,1.0
-    COC(=O)CCC/N=C1\SCCN1Cc1ccccc1,0.4
-    C=C(C)[C@@H]1C[C@@H](CC2(CC=C(C)C)C(=O)C(C(CC(=O)O)c3ccccc3)=C3O[C@@H](C)[C@@H](C)C(=O)C3=C2O)C1(C)C,-0.8
-    C/C(=C\c1ncccc1C)[C@@H]1C[C@@H]2O[C@]2(C)CCC[C@H](C)[C@H](O)[C@@H](C)C(=O)C(C)(C)[C@@H](O)CC(=O)O1,-0.5
+   SMILES,Label
+   C=CC(=O)N[C@@H]1CN(c2nc(Nc3cn(C)nc3OC)c3ncn(C)c3n2)C[C@H]1F,1.0
+   C=CC(=O)Nc1cccc(Nc2nc(Nc3ccc(N4CCN(C(C)=O)CC4)cc3OC)ncc2C(F)(F)F)c1,1.0
+   COC(=O)CCC/N=C1\SCCN1Cc1ccccc1,0.4
+   C=C(C)[C@@H]1C[C@@H](CC2(CC=C(C)C)C(=O)C(C(CC(=O)O)c3ccccc3)=C3O[C@@H](C)[C@@H](C)C(=O)C3=C2O)C1(C)C,-0.8
+   C/C(=C\c1ncccc1C)[C@@H]1C[C@@H]2O[C@]2(C)CCC[C@H](C)[C@H](O)[C@@H](C)C(=O)C(C)(C)[C@@H](O)CC(=O)O1,-0.5
    ```
    Then, you can running the following script:
    ```
@@ -104,7 +104,7 @@ All training and downstream tasks datasets could be easily downloaded at https:/
 
 We deployed a pre-trained model on a dedicated server, which is publicly available at https://bailab.siais.shanghaitech.edu.cn/PhenoScreen, to make it easy for biomedical researcher users to utilize PhenoScreen in their research activity. 
 
-Users can upload their SMILES or csv files to the server, and then they can quickly obtain the predicted results.
+Users can upload their SMILES or csv files to the server, and then they can quickly obtain the screened results.
 
 ## Citation 🔗 
 Papers involving PhenoScreen have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the Github:<br/>
