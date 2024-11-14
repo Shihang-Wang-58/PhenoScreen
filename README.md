@@ -63,15 +63,15 @@ To use PhenoScreen, follow these steps:
 
    For virtual screening, running:
    ```
-    export task_name="DUDE" or "LIT-PCBA"
-    export geminimol_path="./models/GeminiMol"
-    python ./phenoscreen/benchmark_vs.py "./models/v1" "./data/benchmark.json" "${task_name}" "${geminimol_path}"
+   export task_name="DUDE" or "LIT-PCBA"
+   export geminimol_path="./models/GeminiMol"
+   python ./phenoscreen/benchmark_vs.py "./models/v1" "./data/benchmark.json" "${task_name}" "${geminimol_path}"
    ```
    For property prediction, running:
    ```
-    export task_name="ADMET-C", "ADMET-R" or ...
-    export geminimol_path="./models/GeminiMol"
-    python ./phenoscreen/benchmark.py "./models/v1" "./data/benchmark.json" "${task_name}"  "${geminimol_path}"
+   export task_name="ADMET-C", "ADMET-R" or ...
+   export geminimol_path="./models/GeminiMol"
+   python ./phenoscreen/benchmark.py "./models/v1" "./data/benchmark.json" "${task_name}"  "${geminimol_path}"
    ```
    For drug similarity search, you need to define a pharmacological profile file. For example, you can create a CSV file called "profile.csv" in the following format: where the SMILES column is the reference molecule you provided, and the Label column is the weight you assigned.
 
@@ -85,14 +85,14 @@ To use PhenoScreen, follow these steps:
    ```
    Then, you can running the following script:
    ```
-    export job_name="Virtual_Screening"
-    export profile_set="profile.csv" # SMILES (same to compound library) and Label (requried)
-    export compound_library="./compound_library/specs.csv" 
-    export smiles_column="SMILES" # Specify the column name in the compound_library
-    export weight_column="Label" # weights for profiles
-    export keep_top=3000
-    export probe_cluster="Yes"
-    python -u ./phenoscreen/PharmProfiler.py "./models/v1" "${job_name}" "${smiles_column}" "${compound_library}" "${profile_set}:${weight_column}" "${keep_top}" "${probe_cluster}"
+   export job_name="Virtual_Screening"
+   export profile_set="profile.csv" # SMILES (same to compound library) and Label (requried)
+   export compound_library="./compound_library/specs.csv" 
+   export smiles_column="SMILES" # Specify the column name in the compound_library
+   export weight_column="Label" # weights for profiles
+   export keep_top=3000
+   export probe_cluster="Yes"
+   python -u ./phenoscreen/PharmProfiler.py "./models/v1" "${job_name}" "${smiles_column}" "${compound_library}" "${profile_set}:${weight_column}" "${keep_top}" "${probe_cluster}"
    ```
    If you find this process difficult for you, you can also upload a profile file directly on our online website for similarity screening.
 
@@ -107,8 +107,10 @@ We deployed a pre-trained model on a dedicated server, which is publicly availab
 Users can upload their SMILES or csv files to the server, and then they can quickly obtain the screened results.
 
 ## Citation 🔗 
-Papers involving PhenoScreen have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the Github:<br/>
-https://github.com/Shihang-Wang-58/PhenoScreen<br/>
+Papers involving PhenoScreen have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the preprint:<br/>
+**PhenoScreen: A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology**<br/>
+Shihang Wang, Qilei Han, Weichen Qin, Lin Wang, Junhong Yuan, Yiqun Zhao, Pengxuan Ren, Yunze Zhang, Yilin Tang, Ruifeng Li, Zongquan Li, Wenchao Zhang, Shenghua Gao, Fang Bai
+*bioRxiv*, 2024.10.23.619752; doi: https://doi.org/10.1101/2024.10.23.619752
 
 Also, you can access our related work called GeminiMol:
 
