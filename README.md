@@ -109,7 +109,7 @@ Users can upload their SMILES or csv files to the server, and then they can quic
 ## Citation 🔗 
 Papers involving PhenoScreen have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the preprint:<br/>
 **PhenoScreen: A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology**<br/>
-Shihang Wang, Qilei Han, Weichen Qin, Lin Wang, Junhong Yuan, Yiqun Zhao, Pengxuan Ren, Yunze Zhang, Yilin Tang, Ruifeng Li, Zongquan Li, Wenchao Zhang, Shenghua Gao, Fang Bai
+Shihang Wang, Qilei Han, Weichen Qin, Lin Wang, Junhong Yuan, Yiqun Zhao, Pengxuan Ren, Yunze Zhang, Yilin Tang, Ruifeng Li, Zongquan Li, Wenchao Zhang, Shenghua Gao, Fang Bai<br/>
 *bioRxiv*, 2024.10.23.619752; doi: https://doi.org/10.1101/2024.10.23.619752
 
 Also, you can access our related work called GeminiMol:
