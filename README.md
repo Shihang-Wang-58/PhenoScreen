@@ -133,3 +133,5 @@ PhenoScreen prohibits unauthorised commercial use, including commercial training
 We are grateful for the support from HPC Platform of ShanghaiTech University.
 
 Thank you all for your attention to this work.
+
+![Star History Chart](https://api.star-history.com/svg?repos=Shihang-Wang-58/PhenoScreen&type=Date)
