@@ -1,15 +1,15 @@
-<h1 align="center">  PhenoScreen  </h1>
+<h1 align="center">  PhenoModel  </h1>
 <h3 align="center">  A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology </h3>
 <p align="center">
    📃 <a href="https://www.biorxiv.org/content/10.1101/2024.10.23.619752v1" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
 
 <p align="center">
-  <img style="float: center" src="imgs/PhenoScreen.png" alt="alt text" width="650px" align="center"/>
+  <img style="float: center" src="imgs/PhenoModel.png" alt="alt text" width="650px" align="center"/>
 </p>
 
 ## Overview 📘
-PhenoScreen is a cutting-edge molecular representation model that integrates cell phenotype data to enhance the characterization of molecules. By leveraging the rich information embedded in cell images, PhenoScreen significantly improves performance in various drug discovery tasks, particularly in virtual screening. For simple use, you can use PhenoScreen on a webserver at https://bailab.siais.shanghaitech.edu.cn/PhenoScreen
+PhenoModel is a cutting-edge molecular representation foundation model that integrates cell phenotype data to enhance the characterization of molecules. By leveraging the rich information embedded in cell images, PhenoModel significantly improves performance in various drug discovery tasks, particularly in virtual screening. Based on PhenoModel, we developed an active compound screening pipeline called PhenoScreen to further screen other molecules with similar activities but novel scaffolds according to the known active compounds. For simple use, you can use PhenoScreen on a webserver at https://bailab.siais.shanghaitech.edu.cn/PhenoModel
 
 ## Key Features ✨
 
@@ -31,18 +31,18 @@ PhenoScreen is a cutting-edge molecular representation model that integrates cel
 - **Property Prediction**: Competitive performance in predicting absorption, distribution, metabolism, excretion, and toxicity properties (ADMET), comparable to large-scale pre-trained models.
 
 ## News 🔔 
-
+* 2025-01, PhenoModel has been released. PhenoScreen, as a virtual screening pipeline, has been merged as part of PhenoModel.
 * 2024-10, PhenoScreen has been released.
 
 
 ## Getting Started 🚀
 
-To use PhenoScreen, follow these steps:
+To use PhenoModel and PhenoScreen, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   conda create -n PhenoScreen python=3.8.13
-   conda activate PhenoScreen
+   conda create -n PhenoModel python=3.8.13
+   conda activate PhenoModel
 
    git clone https://github.com/Shihang-Wang-58/PhenoScreen.git
    cd PhenoScreen
@@ -57,7 +57,7 @@ To use PhenoScreen, follow these steps:
 
    pip install rdkit
 
-   conda env update -n PhenoScreen -f PhenoScreen.yaml
+   conda env update -n PhenoModel -f PhenoModel.yaml
    ```
 3. **Run the Model**:
 
@@ -102,12 +102,12 @@ All training and downstream tasks datasets could be easily downloaded at https:/
 
 ## Online Server 🌐 
 
-We deployed a pre-trained model on a dedicated server, which is publicly available at https://bailab.siais.shanghaitech.edu.cn/PhenoScreen, to make it easy for biomedical researcher users to utilize PhenoScreen in their research activity. 
+We deployed a pre-trained model on a dedicated server, which is publicly available at https://bailab.siais.shanghaitech.edu.cn/PhenoModel, to make it easy for biomedical researcher users to utilize the virtual screening pipeline of PhenoModel (PhenoScreen) in their research activity. 
 
 Users can upload their SMILES or csv files to the server, and then they can quickly obtain the screened results.
 
 ## Citation 🔗 
-Papers involving PhenoScreen have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the preprint:<br/>
+Papers involving PhenoModel have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the preprint:<br/>
 **PhenoScreen: A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology**<br/>
 Shihang Wang, Qilei Han, Weichen Qin, Lin Wang, Junhong Yuan, Yiqun Zhao, Pengxuan Ren, Yunze Zhang, Yilin Tang, Ruifeng Li, Zongquan Li, Wenchao Zhang, Shenghua Gao, Fang Bai<br/>
 *bioRxiv*, 2024.10.23.619752; doi: https://doi.org/10.1101/2024.10.23.619752
@@ -125,9 +125,9 @@ We welcome community contributions of extension tools based on the PhenoScreen m
 Pull requests are highly welcomed!
 
 ## License 📜
-PhenoScreen is released under the Academic Free Licence, which permits academic use, modification and distribution free of charge. PhenoScreen can be utilized in academic publications, open-source software projects, and open-source competitions (e.g. Kaggle competitions under the MIT Open Source license).
+PhenoModel and PhenoScreen are released under the Academic Free Licence, which permits academic use, modification and distribution free of charge. PhenoScreen can be utilized in academic publications, open-source software projects, and open-source competitions (e.g. Kaggle competitions under the MIT Open Source license).
 
-PhenoScreen prohibits unauthorised commercial use, including commercial training and as part of a paid computational platform, which intended to prevent speculators from exploiting informational asymmetry for profit. Communication and authorization with our [our supervisor](baifang@shanghaitech.edu.cn) is permitted for its application in pipeline development and research activities within pharmaceutical R&D.
+PhenoModel and PhenoScreen prohibit unauthorised commercial use, including commercial training and as part of a paid computational platform, which intended to prevent speculators from exploiting informational asymmetry for profit. Communication and authorization with our [our supervisor](baifang@shanghaitech.edu.cn) is permitted for its application in pipeline development and research activities within pharmaceutical R&D.
 
 ## Acknowledgments 🤝
 We are grateful for the support from HPC Platform of ShanghaiTech University.

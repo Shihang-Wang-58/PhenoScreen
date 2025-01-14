@@ -1,4 +1,4 @@
-name: PhenoScreen
+name: PhenoModel
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
