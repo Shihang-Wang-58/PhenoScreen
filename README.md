@@ -31,8 +31,8 @@
 - **Property Prediction**: Competitive performance in predicting absorption, distribution, metabolism, excretion, and toxicity properties (ADMET), comparable to large-scale pre-trained models.
 
 ## News 🔔 
-* 2025-01, PhenoModel has been released. PhenoScreen, as a virtual screening pipeline, has been merged as part of PhenoModel.
-* 2024-10, PhenoScreen has been released.
+* 2025-01, **PhenoModel** has been released. PhenoScreen, as a virtual screening pipeline, has been merged as part of PhenoModel.
+* 2024-10, **PhenoScreen** has been released.
 
 
 ## Getting Started 🚀
