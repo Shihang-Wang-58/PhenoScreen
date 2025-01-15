@@ -9,7 +9,7 @@
 </p>
 
 ## Overview 📘
-**PhenoModel** is a cutting-edge molecular representation foundation model that integrates cell phenotype data to enhance the characterization of molecules. By leveraging the rich information embedded in cell images, PhenoModel significantly improves performance in various drug discovery tasks, particularly in virtual screening. Based on PhenoModel, we developed an active compound screening pipeline called **PhenoScreen** to further screen other molecules with similar activities but novel scaffolds according to the known active compounds. For simple use, you can use PhenoScreen on a webserver at https://bailab.siais.shanghaitech.edu.cn/PhenoModel
+**PhenoModel** is a cutting-edge molecular representation foundation model that integrates cell phenotype data to enhance the characterization of molecules. By leveraging the rich information embedded in cell images, PhenoModel significantly improves performance in various drug discovery tasks, particularly in virtual screening. Based on PhenoModel, we developed an active compound screening pipeline called **PhenoScreen** to further screen other molecules with similar activities but novel scaffolds according to the known active compounds. For simple use, you can use PhenoScreen on a [webserver](https://bailab.siais.shanghaitech.edu.cn/services/phenomodel).
 
 ## Key Features ✨
 
