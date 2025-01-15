@@ -18,8 +18,8 @@ import torch.nn.functional as F
 import torchvision.models as models
 import torchvision.transforms as transforms
 import sys
-from utils.cell_vit import cell_encoder
-from utils.cell_vit import TrainDataset
+# from utils.cell_vit import cell_encoder
+# from utils.cell_vit import TrainDataset
 from QFormer.models import build_model
 from QFormer.config import get_config_from_str
 
@@ -37,8 +37,6 @@ from dgllife.model.readout.mlp_readout import MLPNodeReadout
 from dgllife.model.readout.attentivefp_readout import AttentiveFPReadout
 from dgllife.model.readout.weighted_sum_and_max import WeightedSumAndMax
 import torch.nn.init as init
-
-
 
 class InfoNCE(nn.Module):
     def __init__(self, temperature=0.1, reduction='mean', negative_mode='unpaired'):

@@ -26,7 +26,6 @@ from dgllife.model.readout.attentivefp_readout import AttentiveFPReadout
 from dgllife.model.readout.weighted_sum_and_max import WeightedSumAndMax
 import torch.nn.init as init
 
-# from .unique_wln import UNIQUE_WLN
 def initialize_weights(model):
     for module in model.modules():
         if isinstance(module, (nn.Conv2d, nn.Linear)):
@@ -338,14 +337,6 @@ class MolecularEncoder(nn.Module):
                 n_layers=num_layers, 
                 node_out_feats=num_features
             )
-        # elif gnn_type == 'UNIQUE_WLN':
-        #     self.GeminiEncoder = UNIQUE_WLN(
-        #         atom_feat_size, 
-        #         bond_feat_size, 
-        #         n_layers=num_layers, 
-        #         node_out_feats=num_features,
-        #         unique=True
-        #     )
         elif gnn_type == 'GAT':
             self.GeminiEncoder = GAT(
                 atom_feat_size, 
