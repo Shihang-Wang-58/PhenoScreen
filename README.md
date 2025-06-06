@@ -1,6 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/Shihang-Wang-58/PhenoScreen)
 [![BioRxiv2025](https://img.shields.io/badge/BioRxiv-10.1101%2F2024.10.23.619752v1-green)](https://www.biorxiv.org/content/10.1101/2024.10.23.619752v1)
-[![PyPI](https://img.shields.io/badge/PyPI-cyan)](https://pypi.org/project/deepsa)
 
 <h1 align="center">  PhenoModel  </h1>
 <h3 align="center">  A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology </h3>
