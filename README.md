@@ -1,10 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/Shihang-Wang-58/PhenoScreen)
-[![BioRxiv2025](https://img.shields.io/badge/BioRxiv-10.1101%2F2024.10.23.619752v1-green)](https://www.biorxiv.org/content/10.1101/2024.10.23.619752v1)
+[![APSB](https://img.shields.io/badge/APSB-10.1016/j.apsb.2025.09.036-green)](https://doi.org/10.1016/j.apsb.2025.09.036)
 
 <h1 align="center">  PhenoModel  </h1>
 <h3 align="center">  A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology </h3>
 <p align="center">
-   📃 <a href="https://www.biorxiv.org/content/10.1101/2024.10.23.619752v1" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
+   📃 <a href="https://doi.org/10.1016/j.apsb.2025.09.036" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
 
 <p align="center">
@@ -34,6 +34,7 @@
 - **Property Prediction**: Competitive performance in predicting absorption, distribution, metabolism, excretion, and toxicity properties (ADMET), comparable to large-scale pre-trained models.
 
 ## News 🔔 
+* 2025-01, **PhenoModel** has been published in *Acta Pharmacologica Sinica B* [(APSB)](https://doi.org/10.1016/j.apsb.2025.09.036)!.
 * 2025-01, **PhenoModel** has been released. PhenoScreen, as a virtual screening pipeline, has been merged as part of PhenoModel.
 * 2024-10, **PhenoScreen** has been released.
 
@@ -110,16 +111,11 @@ We deployed a pre-trained model on a dedicated server, which is publicly availab
 Users can upload their SMILES or csv files to the server, and then they can quickly obtain the screened results.
 
 ## Citation 🔗 
-Papers involving PhenoModel have been submitted to an academic journal. If you find this repository useful in your research, please consider citing the preprint:<br/>
-**PhenoScreen: A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology**<br/>
-Shihang Wang, Qilei Han, Weichen Qin, Lin Wang, Junhong Yuan, Yiqun Zhao, Pengxuan Ren, Yunze Zhang, Yilin Tang, Ruifeng Li, Zongquan Li, Wenchao Zhang, Shenghua Gao, Fang Bai<br/>
-*bioRxiv*, 2024.10.23.619752; doi: https://doi.org/10.1101/2024.10.23.619752
+Wang, S., Han, Q., Qin, W., Wang, L., Yuan, J., Cai, F., ... & Bai, F. (2025). PhenoModel: A multimodal phenotypic drug design foundation model for discovering novel potential inhibitors of multiple cancer cells. *Acta Pharmaceutica Sinica B*.
 
 Also, you can access our related work called GeminiMol:
 
-**Conformational Space Profile Enhances Generic Molecular Representation Learning**     
-Lin Wang, Shihang Wang, Hao Yang, Shiwei Li, Xinyu Wang, Yongqi Zhou, Siyuan Tian, Lu Liu, Fang Bai    
-*Advanced Science*, 2024; doi: 10.1002/advs.202403998
+Wang, L., Wang, S., Yang, H., Li, S., Wang, X., Zhou, Y., ... & Bai, F. (2024). Conformational space profiling enhances generic molecular representation for AI‐powered ligand‐based drug discovery. *Advanced Science*, *11*(40), 2403998.
 
 ## Get in Touch 💌
 
