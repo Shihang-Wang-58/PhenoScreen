@@ -2,7 +2,7 @@
 [![APSB](https://img.shields.io/badge/APSB-10.1016/j.apsb.2025.09.036-green)](https://doi.org/10.1016/j.apsb.2025.09.036)
 
 <h1 align="center">  PhenoModel  </h1>
-<h3 align="center">  A Dual-Space Contrastive Learning Framework-based Phenotypic Screening Method by Linking Chemical Perturbations to Cellular Morphology </h3>
+<h3 align="center">  A multimodal phenotypic drug design foundation model for discovering novel potential inhibitors of multiple cancer cells </h3>
 <p align="center">
    📃 <a href="https://doi.org/10.1016/j.apsb.2025.09.036" target="_blank">Paper</a> ·  🤗 <a href="https://huggingface.co/Sean-Wong/PhenoScreen" target="_blank">Model</a> ·  📕 <a href="https://zenodo.org/records/13943032" target="_blank">Data</a><br>
 </p>
